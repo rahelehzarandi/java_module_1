@@ -24,7 +24,8 @@ for (let i=0;i<10000;i++){
     }
 }
 probablity=(count/10000)*100
-document.write("Probability to get sum"+ sumEye+" with" +numDice+" dice is  "+count+"  %" )
+probablity=probablity.toFixed()
+document.write("Probability to get sum"+ sumEye+" with" +numDice+" dice is about "+probablity+"  %" )
 
 // let table1 = new Array(numDice+1);
 // for(let i=0;i<(numDice+1);i++)
